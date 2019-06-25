@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FactoryTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nosignal">No signal</string>
+    <string name="PictureMode">Picture mode</string>
+    <string name="Standard">Standard</string>
+    <string name="Soft">Soft</string>
+    <string name="Vivid">Vivid</string>
+    <string name="User">User</string>
+    <string name="Brightness">Brightness</string>
+    <string name="Contrast">Contrast</string>
+    <string name="Saturation">Saturation</string>
+    <string name="Sharpness">Sharpness</string>
+    <string name="Hue">Hue</string>
+    <string name="Tempertature">Color Temperature</string>
+    <string name="Warm">Warm</string>
+    <string name="Cool">Cool</string>
+    <string name="SoundMode">Sound Mode</string>
+    <string name="Music">Music</string>
+    <string name="News">News</string>
+    <string name="Movie">Movie</string>
+    <string name="Treble">Treble</string>
+    <string name="Bass">Bass</string>
+    <string name="Balance">Balance</string>
+    <string name="Surround">Surround</string>
+    <string name="Backlight">Backlight</string>
+    <string name="On">On</string>
+    <string name="Off">Off</string>
+    <string name="SPDIFSwitch">SPDIF Switch</string>
+    <string name="SPDIF">SPDIF</string>
+    <string name="SleepTimer">Sleep Timer</string>
+    <string name="DynamicBacklight">Dynamic Backlight</string>
+    <string name="RestoreSetting">Restore Factory Settings</string>
+    <string name="AspectRadio">Aspect Radio</string>
+    <string name="NoiseReduction">DNR</string>
+    <string name="Low">Low</string>
+    <string name="Medium">Medium</string>
+    <string name="High">High</string>
+    <string name="Aspect169">16:9</string>
+    <string name="Aspect43">4:3</string>
+    <string name="Zoom">"Zoom"</string>
+    <string name="NoScale">"Point to Point"</string>
+    <string name="Weak">Weak</string>
+    <string name="Middle">Middle</string>
+    <string name="Strong">Strong</string>
+    <string name="Mins15">15 Mins</string>
+    <string name="Mins30">30 Mins</string>
+    <string name="Mins45">45 Mins</string>
+    <string name="Mins60">60 Mins</string>
+    <string name="Mins90">90 Mins</string>
+    <string name="Mins120">120 Mins</string>
+    <string name="HDMI1">HDMI1</string>
+    <string name="HDMI2">HDMI2</string>
+    <string name="HDMI3">HDMI3</string>
+    <string name="AV">AV</string>
+    <string name="_3D_mode">3D Mode</string>
+    <string name="_3DDepth">3D Depth</string>
+    <string name="_3D_Left">Left</string>
+    <string name="_3D_Right">Right</string>
+    <string name="Disable">Disable</string>
+    <string name="Auto">Auto</string>
+    <string name="_3D_LR">Left-Right</string>
+    <string name="_3D_BT">Up-Down</string>
+    <string name="_3D_Line">Line Alternative</string>
+    <string name="_3D_Frame">Frame Alternative</string>
+    <string name="_3D_to_2D">3D to 2D</string>
+    
+    
+    <string name="hdmi1">HDMI1</string>
+	<string name="hdmi2">HDMI2</string>
+	<string name="hdmi3">HDMI3</string>
+	
+	<string name="test">Test</string>
+	
+	<string name="version">软件版本:</string>
+	<string name="mac">MAC:</string>
+	<string name="yun_boxsn">云盒SN:</string>
+	<string name="yun_tvsn">云屏SN:</string>
+	<string name="ok">通过</string>
+	<string name="cancel">不通过</string>
+	<string name="sound_confirm_message">请确认声音是否有效，可以点击通过，否则点击不通过，以便统计结果</string>
+	<string name="confirm_title">请确认</string>
+	<string name="reboot">重启</string>
+	<string name="recovery">恢复出厂</string>
+	<string name="confirm_recovery">确认恢复出厂</string>
+	<string name="confirm_ok">确认</string>
+	<string name="confirm_cancel">取消</string>
+	<string name="sound">声音</string>
+ 
+	
+	
+	
+	<!-- flash main -->
+	<string name="mac2">MAC:</string>
+    <string name="sn">云盒SN:</string>
+    <string name="model">MODEL:</string>
+    <string name="hdcp">HDCP:</string>
+    <string name="hdcp1">HDCP:OK</string>
+    <string name="yunsn">云屏SN：</string>
+    <string name="yun_network_type">云屏SN：</string>
+    <string name="commit">手动写入</string>
+    <string name="auto_conmit">自动写入</string>
+    <string name="in_type">请输入正确的内容</string>
+    <string name="read_error">读取文件错误</string>
+    <string name="error">写入错误</string>
+    <string name="write_success">写入成功</string>
+    <string name="auto_write_message">请在U盘放入txt文件</string>
+    <string name="please_check">"写入错误，请检测U盘里面的txt文件:sn.txt,mac.txt"</string>
+    <string name="uninstall">恢复出厂设置</string>
+    <string name="mac_error">MAC写入失败    </string>
+    <string name="sn_error">云盒SN写入失败    </string>
+    <string name="hdcp_error">HDCP写入失败   </string>
+    <string name="model_error">MODEL写入失败</string>
+    <string name="yunsn_error">云屏SN写入失败</string>
+    <string name="mac_ok">MAC写入成功    </string>
+    <string name="sn_ok">云盒SN写入成功    </string>
+    <string name="hdcp_ok">HDCP写入成功   </string>
+    <string name="model_ok">MODEL写入成功   </string>
+    <string name="yunsn_ok">云屏SN写入成功</string>
+    <string name="warning">烧录成功后，请点击 "恢复出厂设置"</string>
+
+    
+    <string-array name="menu_name">
+        <item>WIFI测试</item>
+        <item>Ethernet测试</item>
+        <item>USB测试</item>
+        <item>HDMI IN 1测试</item>
+        <item>HDMI IN 2测试</item>
+        <item>HDMI IN 3测试</item>
+        <item>AV IN 测试</item>
+        <item>AUX 测试</item>
+        <item>按键测试</item>
+        <item>设备信息</item>
+    </string-array>
+    
+    
+    <string name="next">下一步</string>
+    <string name="igone">跳过</string>
+    
+    <string name="save">重新测试</string>
+    <string name="luyouqi">路由器</string>
+    <string name="password">密码</string>
+    
+    <string name="auto_test">自动化测试</string>
+    <string name="step_test">分步测试</string>
+    <string name="main_menu_tips">自动化测试主要测试WIFI、Ethernet、USB、HDMI</string>
+    <string name="key_tips">请手动按下云盒上面的键，查看显示的打印信息</string>
+ 
+    
+    <string name="usb_tips">从电源口开始为USB4、USB2、USB1</string>
+    <string name="wifi_tips">当前使用的默认WiFi\n 路由器:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;test\n 密码:&#160;&#160;&#160;&#160;12345678\n 加密方式:WPA_PSK\n如果需要更换测试，请填写信息</string>
+    
+    <string name="open_manumode">开启工厂模式</string>
+    <string name="close_manumode">关闭工厂模式</string>
+    <string name="set_manumode">工厂模式设置</string>
+    
+    
+    <string name="ethernet_100">百兆网络</string>
+    <string name="ethernet_1000">千兆网络</string>
+    <string name="ethernet_title">以太网类型</string>
+    
+    <string name="rtc_title">RTC是否工作</string>
+    <string name="rtc_ok">工作</string>
+    <string name="rtc_failed">不能工作</string>
+    
+    <string name="ddr_title">DDR 扩展</string>
+    <string name="ddr_dialog_title">DDR 频率扩展</string>
+    <string-array name="ddr_item_value">
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    
+    
+</resources>

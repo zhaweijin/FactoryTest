@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/grey1_color" >
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dip"
+        android:textColor="@color/settings_blue_007eff"
+        android:text="@string/usb_tips"
+        android:textSize="20sp" >
+    </TextView>
+    
+    
+    <TextView
+        android:id="@+id/usb1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="20sp" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/usb2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="20sp" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/usb4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="20sp" >
+    </TextView>
+
+</LinearLayout>

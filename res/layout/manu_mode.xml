@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey1_color"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/open_manumode"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dip"
+        android:text="@string/open_manumode"
+        android:textColor="@android:color/black" >
+    </Button>
+
+    <Button
+        android:id="@+id/close_manumode"
+        android:layout_width="200dip"
+        android:layout_height="60dip"
+        android:layout_below="@+id/open_manumode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="@string/close_manumode"
+        android:textColor="@android:color/black" >
+    </Button>
+
+</RelativeLayout>

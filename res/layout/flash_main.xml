@@ -1,0 +1,239 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inside_bg"
+    tools:context="${relativePackage}.${activityClass}" >
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_marginTop="400dp"
+        />
+    <LinearLayout 
+         android:id="@+id/layout0"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_marginLeft="100dp"
+         
+        
+        >
+        <Button 
+            android:id="@+id/button_for_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_30"
+            android:text="@string/auto_conmit"
+            android:background="@drawable/button_selector"
+            />
+        <TextView 
+            android:id="@+id/sn_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            android:text="@string/sn"
+            />
+        
+        <TextView 
+            android:id="@+id/mac_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            android:text="@string/mac2"
+            />
+         <TextView 
+            android:id="@+id/hdcp_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            android:text="@string/hdcp"
+            />
+        <TextView 
+            android:id="@+id/model_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            android:text="@string/model"
+            />
+         <TextView 
+            android:id="@+id/yunsn_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            android:text="@string/yunsn"
+            />
+        
+        <TextView 
+            android:id="@+id/write_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size_38"
+            android:text="@string/auto_write_message"
+            />
+        
+        <Button 
+            android:id="@+id/uninstall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size_30"
+            android:text="@string/uninstall"
+            android:focusable="false"
+            android:background="@drawable/button_selector"
+            />
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/write_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/layout0"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        
+        >
+        <TextView 
+            android:id="@+id/sn_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size_38"
+            
+            />
+         <TextView 
+            android:id="@+id/mac_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size_38"
+            
+            />
+          <TextView 
+            android:id="@+id/hdcp_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size_38"
+            
+            />
+          <TextView 
+            android:id="@+id/model_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size_38"
+            
+            />
+          <TextView 
+            android:id="@+id/yunsn_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size_38"
+            
+            />
+
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/warn_to_delete"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="@dimen/text_size_60"
+        android:text="@string/warning"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        
+        />
+    <LinearLayout 
+        android:id="@+id/layout1"
+        android:layout_below="@+id/layout0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        
+        >
+        <TextView 
+            android:id="@+id/sn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            android:text="@string/sn"
+            />
+        <EditText 
+            android:id="@+id/edittext1"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            android:background="@drawable/edittextforbluetooth"
+            android:focusable="true"
+            android:maxLength="17"
+            
+            />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_30"
+            android:text="@string/commit"
+            android:background="@drawable/button_selector"
+            ></Button>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        
+        android:layout_alignRight="@id/layout1"
+        >
+         <TextView 
+            android:id="@+id/mac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            android:text="@string/mac"
+            
+            />
+        <EditText 
+            android:id="@+id/edittext2"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            android:focusable="true"
+            android:background="@drawable/edittextforbluetooth"
+            android:maxLength="17"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_30"
+            android:text="@string/commit"
+            android:background="@drawable/button_selector"
+            
+            ></Button>
+        
+    </LinearLayout>
+
+</RelativeLayout>

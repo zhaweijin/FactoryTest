@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget30"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/widget31"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip" >
+
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="60dip"
+             >
+        </TextView>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/result"
+            android:textColor="@color/settings_blue_007eff"
+            android:textSize="20sp"
+             >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/status2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/result"
+            android:layout_marginRight="30dip"
+            android:textColor="@color/settings_blue_007eff"
+            android:textSize="20sp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="60dip"
+            android:textColor="@color/settings_blue_007eff"
+            android:textSize="20sp"
+             >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

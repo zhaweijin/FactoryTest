@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hiveview.factorytest"
+    android:versionCode="3"
+    android:sharedUserId="android.uid.system"
+    android:versionName="3.0.1"
+    >
+    <!--     android:sharedUserId="android.uid.system" -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.INTERNET" />	
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> 
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+	<uses-permission android:name="android.permission.REBOOT" />
+	<uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
+	<uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MTP" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+
+    
+	
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        >
+        <uses-library android:name="com.hiveview.server" /> 
+        <activity
+            android:name="com.hiveview.factorytest.SettingsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" /> 
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.hiveview.factorytest.VideoPlay"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+      <!--     <activity android:name="TVplay" ></activity>   -->     
+        <receiver android:name="com.hiveview.factorytest.YUNReceiver">            
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>             
+			<intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />                
+            </intent-filter>            
+        </receiver>
+        <activity android:name="OtherTest" ></activity>
+        <activity android:name="HDMITest" ></activity>
+        <activity android:name="NetworkTest" ></activity> 
+        <activity android:name="MainActivity" ></activity> 
+        <activity android:name="WifiSetting" ></activity> 
+    </application>
+
+</manifest>

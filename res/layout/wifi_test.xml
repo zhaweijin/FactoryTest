@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/grey1_color" >
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dip"
+        android:textColor="@color/settings_blue_007eff"
+        android:text="@string/wifi_tips"
+        android:textSize="20sp" >
+    </TextView>
+    
+    
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="20sp" >
+    </TextView>
+    <TextView
+        android:id="@+id/wifi_level"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="20sp" >
+    </TextView>
+    
+    <LinearLayout
+        android:id="@+id/layout_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layout_ssid"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/text_ssid"
+                android:layout_width="60dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/black"
+                android:text="@string/luyouqi"
+                android:textSize="20sp"
+                >
+            </TextView>
+
+            <EditText
+                android:id="@+id/ssid"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/text_ssid"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" >
+            </EditText>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_password"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/text_password"
+                android:layout_width="60dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/black"
+                android:text="@string/password"
+                android:textSize="20sp"
+                 >
+            </TextView>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/text_password"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" >
+            </EditText>
+        </RelativeLayout>
+        
+        <!--  
+        <RelativeLayout
+            android:id="@+id/layout_sec"
+            android:layout_width="400dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/widget34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                 >
+            </TextView>
+
+            <EditText
+                android:id="@+id/sec"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" >
+            </EditText>
+        </RelativeLayout>
+        -->
+        <RelativeLayout
+            android:id="@+id/widget33"
+            android:layout_width="400dip"
+            android:layout_height="40dip"
+            android:layout_marginTop="20dip"
+            android:layout_gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/black"
+                android:text="@string/save"
+                android:textSize="20sp"
+                 >
+            </Button>
+
+             
+        </RelativeLayout>
+    </LinearLayout>
+ 
+
+</LinearLayout>

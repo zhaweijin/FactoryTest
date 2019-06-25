@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+ 
+    
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="600dip"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fadeScrollbars="false"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:scrollbars="none"
+        android:visibility="gone" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/layout_main_menu"
+        android:layout_width="700dip"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/main_menu_tips"
+            android:textColor="@color/settings_blue_007eff"
+            android:textSize="20sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/auto_test"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dip"
+            android:text="@string/auto_test"
+            android:textColor="@android:color/black" >
+        </Button>
+
+        <Button
+            android:id="@+id/step_test"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dip"
+            android:text="@string/step_test"
+            android:textColor="@android:color/black" >
+        </Button>
+
+        <Button
+            android:id="@+id/recovery"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dip"
+            android:text="@string/recovery"
+            android:textColor="@android:color/black" >
+        </Button>
+        
+        <Button
+            android:id="@+id/set_manumode"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dip"
+            android:text="@string/set_manumode"
+            android:textColor="@android:color/black" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>
